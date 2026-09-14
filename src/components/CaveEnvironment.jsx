@@ -171,7 +171,7 @@ export default function CaveEnvironment() {
   const texture = useMemo(() => {
     const loader = new THREE.TextureLoader();
     // Use /Cave.png from public, fall back gracefully
-    const tex = loader.load('/Cave.png');
+    const tex = loader.load(`${import.meta.env.BASE_URL}Cave.png`);
     tex.minFilter = THREE.LinearFilter;
     tex.magFilter = THREE.LinearFilter;
     tex.generateMipmaps = false;
