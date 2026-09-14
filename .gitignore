@@ -1,0 +1,25 @@
+﻿# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production build
+dist/
+build/
+
+# Testing captures & scripts generated during testing
+/*.png
+capture*.cjs
+test_render.js
+
+# Environment & local files
+.env
+.env.local
+.env.*.local
+
+# Editor & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
