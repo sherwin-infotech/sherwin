@@ -23,3 +23,5 @@ test_render.js
 .DS_Store
 Thumbs.db
 *.log
+
+push_to_github.ps1
